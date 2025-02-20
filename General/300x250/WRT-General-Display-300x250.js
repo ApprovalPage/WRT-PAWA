@@ -817,7 +817,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(150,178.5);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(191).to({_off:false},0).wait(30).to({scaleX:1.15,scaleY:1.15,y:178.45},2).to({scaleX:1,scaleY:1,y:178.5},8).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(221).to({_off:false},0).to({scaleX:1.15,scaleY:1.15,y:178.45},2).to({scaleX:1,scaleY:1,y:178.5},8).wait(2));
 
 	// URL
 	this.instance_6 = new lib.URL();
@@ -828,17 +828,19 @@ if (reversed == null) { reversed = false; }
 
 	// PIC
 	this.instance_7 = new lib.PIC1();
-	this.instance_7.setTransform(150,125);
+	this.instance_7.setTransform(149.95,124.95,1.1,1.1);
 
 	this.instance_8 = new lib.PIC2();
-	this.instance_8.setTransform(150,125);
+	this.instance_8.setTransform(149.95,124.95,1.1,1.1);
+	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7}]}).to({state:[{t:this.instance_8}]},108).wait(125));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({scaleX:1,scaleY:1,x:150,y:125},107).to({_off:true},1).wait(125));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(108).to({_off:false},0).to({scaleX:1,scaleY:1,x:150,y:125},124).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-105,124.5,407,126);
+p.nominalBounds = new cjs.Rectangle(-105,112.5,420,150);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
