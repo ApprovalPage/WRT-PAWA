@@ -840,7 +840,7 @@ if (reversed == null) { reversed = false; }
 
 	// URL
 	this.instance_7 = new lib.URL();
-	this.instance_7.setTransform(151,225,1,1,0,0,0,0,27.5);
+	this.instance_7.setTransform(150,225,1,1,0,0,0,0,27.5);
 	this.instance_7._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(265).to({_off:false},0).wait(42));
