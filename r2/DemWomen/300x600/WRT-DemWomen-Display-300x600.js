@@ -814,7 +814,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(-127.5,165,1,1,0,0,0,127.5,3);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(30).to({_off:false},0).to({x:73.5},20,cjs.Ease.quintOut).to({_off:true},18).wait(15).to({_off:false,x:-127.5,y:166.55},0).to({scaleX:1.1176,x:131.5},20,cjs.Ease.quintOut).to({_off:true},64).wait(59).to({_off:false,scaleX:1,x:-127.5,y:234.55},0).to({scaleX:1.1176,x:86.5},20,cjs.Ease.quintOut).wait(61));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({x:73.5},20,cjs.Ease.quintOut).to({_off:true},33).wait(15).to({_off:false,x:-127.5,y:166.55},0).to({scaleX:1.1176,x:131.5},20,cjs.Ease.quintOut).to({_off:true},64).wait(59).to({_off:false,scaleX:1,x:-127.5,y:234.55},0).to({scaleX:1.1176,x:86.5},20,cjs.Ease.quintOut).wait(61));
 
 	// CTA
 	this.instance_5 = new lib.CTA();
