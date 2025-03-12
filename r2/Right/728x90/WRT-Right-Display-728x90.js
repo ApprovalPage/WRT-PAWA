@@ -772,7 +772,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1a
 	this.instance = new lib.HEAD1a();
-	this.instance.setTransform(75.5,94.3,1,1,0,0,0,135.5,-19.2);
+	this.instance.setTransform(75.5,80.3,1,1,0,0,0,135.5,-19.2);
 	this.instance.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:151.5,alpha:1},14,cjs.Ease.quintOut).to({_off:true},54).wait(239));
@@ -803,7 +803,7 @@ if (reversed == null) { reversed = false; }
 
 	// RULE
 	this.instance_4 = new lib.RULE();
-	this.instance_4.setTransform(-127.5,71,1,1,0,0,0,127.5,3);
+	this.instance_4.setTransform(-127.5,57,1,1,0,0,0,127.5,3);
 	this.instance_4._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(15).to({_off:false},0).to({regX:127.6,scaleX:1.2941,x:7.15},20,cjs.Ease.quintOut).to({_off:true},33).wait(15).to({_off:false,regX:127.5,scaleX:1,x:-127.5,y:70},0).to({scaleX:1.4274,x:112},20,cjs.Ease.quintOut).to({_off:true},64).wait(59).to({_off:false,scaleX:1,x:-127.5},0).to({x:76.5},20,cjs.Ease.quintOut).wait(61));
