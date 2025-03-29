@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.PAWAdisplay300x250BKGD2 = function() {
+(lib.PAWAdisplayDem2300x250BKGD = function() {
 	this.initialize(ss["WRT_DemWomen2_Display_300x250_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PAWAdisplayDem2300x250BKGD = function() {
+(lib.PAWAdisplayEndScreen2300x250BKGD = function() {
 	this.initialize(ss["WRT_DemWomen2_Display_300x250_atlas_NP_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.PAWAdisplay300x250BKGD2();
+	this.instance = new lib.PAWAdisplayEndScreen2300x250BKGD();
 	this.instance.setTransform(-150,-125,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));

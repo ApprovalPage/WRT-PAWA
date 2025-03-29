@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.PAWAdisplayworkers01300x600BKGD = function() {
+(lib.PAWAdisplayEndScreen2300x600BKGD = function() {
 	this.initialize(ss["WRT_General2_Display_300x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PAWAdisplayworkers02300x600BKGD = function() {
+(lib.PAWAdisplayworkers01300x600BKGD = function() {
 	this.initialize(ss["WRT_General2_Display_300x600_atlas_NP_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.PAWAdisplayworkers02300x600BKGD();
+	this.instance = new lib.PAWAdisplayEndScreen2300x600BKGD();
 	this.instance.setTransform(-150,-300,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));

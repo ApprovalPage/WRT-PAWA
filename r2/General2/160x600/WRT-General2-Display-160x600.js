@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"WRT_General2_Display_160x600_atlas_NP_1", frames: [[602,0,320,1200],[0,0,600,1200]]}
+		{name:"WRT_General2_Display_160x600_atlas_NP_1", frames: [[0,0,600,1200],[602,0,320,1200]]}
 ];
 
 
@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.PAWAdisplayGeneral2160x600BKGD = function() {
+(lib.PAWAdisplayEndScreen2300x600BKGD = function() {
 	this.initialize(ss["WRT_General2_Display_160x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PAWAdisplayworkers02300x600BKGD = function() {
+(lib.PAWAdisplayGeneral2160x600BKGD = function() {
 	this.initialize(ss["WRT_General2_Display_160x600_atlas_NP_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.PAWAdisplayworkers02300x600BKGD();
+	this.instance = new lib.PAWAdisplayEndScreen2300x600BKGD();
 	this.instance.setTransform(-150,-300,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));

@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.PAWAdisplayMod2728x90BKGD = function() {
+(lib.PAWAdisplayEndScreen2728x90BKGD = function() {
 	this.initialize(ss["WRT_Moderate2_Display_728x90_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PAWAdisplay728x90BKGD02 = function() {
+(lib.PAWAdisplayMod2728x90BKGD = function() {
 	this.initialize(ss["WRT_Moderate2_Display_728x90_atlas_NP_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.PAWAdisplay728x90BKGD02();
+	this.instance = new lib.PAWAdisplayEndScreen2728x90BKGD();
 	this.instance.setTransform(-364,-45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
